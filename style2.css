@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4ABDAC;
+}
+header{
+    background-color: orange;
+    padding: 50px;
+}
+header > h1{
+    color: #252631;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+}
+
+button{
+    border-color: orange;
+    background-color: #FF4500;
+}
+.registerPan{
+    margin: 200px auto;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 12px;
+    width: 770px;
+    color: whitesmoke;
+    font-size: 40px;
+    align-content: center;
+}
+.register{
+    margin: auto;
+    padding-left: 35px;
+    align-content: center;
+
+}
+#fnField{
+    background-color: #69db7c;
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+#lnField{
+    background-color: #69db7c;
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+#sidField{
+    background-color: #69db7c;
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+#eField{
+    background-color: #69db7c;
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+#slot{
+    background-color: #69db7c;
+    border-radius: 5px;
+    height: 50px;
+    width: auto;
+    font-size: 20px;
+}
+#register_button{
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    margin: 35px;
+}
+#clear_button{
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    margin: 35px;
+}
+.link_container{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+#id{
+  border-radius: 12px;
+  background-color: #1c87c9;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 15px 2px;
+  cursor: pointer;
+}
+

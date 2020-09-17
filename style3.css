@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4ABDAC;
+}
+header{
+    background-color: orange;
+    padding: 50px;
+}
+header > h1{
+    color: #252631;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+}
+button{
+    border-color: orange;
+    background-color:#FF4500;
+}
+.infoPan{
+    margin: 200px auto;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 12px;
+    width: 155vh;
+    height: 93vh;
+    color: whitesmoke;
+    font-size: 30px;
+    align-content: center;
+}
+.info{
+    margin: auto;
+    padding-left: 35px;
+    align-content: center;
+}
+#search_button{
+    border-radius: 5px;
+    height: 40px;
+    width: 12vh;
+    font-size: 20px;
+    margin: 20px;
+}
+#sArea{
+    background-color: #e8e8fa;
+    border-radius: 12px;
+    height: 60vh;
+    width: 149vh;
+    font-size: 30px;
+}
+#slot{
+    background-color: #69db7c;
+    border-radius: 5px;
+    height: 50px;
+    width: auto;
+    font-size: 20px;
+}
+table.mytable {
+    border: 1px solid #FF0000;
+}
+table.mytable > thead > tr > th {
+    font-size: 2em;
+}
+table.mytable > tbody > tr > td {
+    color: #999;
+}
